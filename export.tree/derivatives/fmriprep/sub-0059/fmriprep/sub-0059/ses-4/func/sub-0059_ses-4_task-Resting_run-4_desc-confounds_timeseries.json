@@ -1,0 +1,96 @@
+{
+  "a_comp_cor_00": {
+    "CumulativeVarianceExplained": 0.5503415233,
+    "Mask": "CSF",
+    "Method": "aCompCor",
+    "Retained": true,
+    "SingularValue": 23.6579231794,
+    "VarianceExplained": 0.5503415233
+  },
+  "a_comp_cor_01": {
+    "CumulativeVarianceExplained": 0.5095358583,
+    "Mask": "WM",
+    "Method": "aCompCor",
+    "Retained": true,
+    "SingularValue": 95.4169100142,
+    "VarianceExplained": 0.5095358583
+  },
+  "a_comp_cor_02": {
+    "CumulativeVarianceExplained": 0.5082369784,
+    "Mask": "combined",
+    "Method": "aCompCor",
+    "Retained": true,
+    "SingularValue": 96.083946176,
+    "VarianceExplained": 0.5082369784
+  },
+  "csf": {
+    "Method": "Mean"
+  },
+  "csf_wm": {
+    "Method": "Mean"
+  },
+  "dropped_0": {
+    "CumulativeVarianceExplained": 1.0,
+    "Mask": "CSF",
+    "Method": "aCompCor",
+    "Retained": false,
+    "SingularValue": 21.384636327,
+    "VarianceExplained": 0.4496584767
+  },
+  "dropped_1": {
+    "CumulativeVarianceExplained": 1.0,
+    "Mask": "CSF",
+    "Method": "aCompCor",
+    "Retained": false,
+    "SingularValue": 0.0,
+    "VarianceExplained": 0.0
+  },
+  "dropped_2": {
+    "CumulativeVarianceExplained": 1.0,
+    "Mask": "WM",
+    "Method": "aCompCor",
+    "Retained": false,
+    "SingularValue": 93.6141724492,
+    "VarianceExplained": 0.4904641417
+  },
+  "dropped_3": {
+    "CumulativeVarianceExplained": 1.0,
+    "Mask": "WM",
+    "Method": "aCompCor",
+    "Retained": false,
+    "SingularValue": 0.0,
+    "VarianceExplained": 0.0
+  },
+  "dropped_4": {
+    "CumulativeVarianceExplained": 1.0,
+    "Mask": "combined",
+    "Method": "aCompCor",
+    "Retained": false,
+    "SingularValue": 94.513889388,
+    "VarianceExplained": 0.4917630216
+  },
+  "dropped_5": {
+    "CumulativeVarianceExplained": 1.0,
+    "Mask": "combined",
+    "Method": "aCompCor",
+    "Retained": false,
+    "SingularValue": 0.0,
+    "VarianceExplained": 0.0
+  },
+  "global_signal": {
+    "Method": "Mean"
+  },
+  "t_comp_cor_00": {
+    "CumulativeVarianceExplained": 0.5666851774,
+    "Method": "tCompCor",
+    "Retained": true,
+    "SingularValue": 104.6425233047,
+    "VarianceExplained": 0.5666851774
+  },
+  "tcompcor": {
+    "Method": "Mean"
+  },
+  "white_matter": {
+    "Method": "Mean"
+  }
+}
